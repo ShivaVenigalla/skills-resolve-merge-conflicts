@@ -6,3 +6,15 @@ contact_links:
   - name: GitHub Security Bug Bounty
     url: https://bounty.github.com/
     about: Please report security vulnerabilities here.
+    body:
+- type: dropdown
+  id: download
+  attributes:
+    label: How did you download the software?
+    options:
+      - Homebrew
+      - MacPorts
+      - apt-get
+      - Built from source
+  validations:
+    required: false
